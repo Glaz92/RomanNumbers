@@ -28,17 +28,3 @@ std::string NumbersConverter::arabicNumberToRomanNumeral(int number)
 
 	return result;
 }
-
-/*
- I - 1
- V - 5
- X - 10
- L - 50
- C -100
- D - 500
- M - 1000 
-
- 123 -> III + 120 -> XXIII + 100 -> CXXIII
- 94 -> IV + 90 -> XCIV
-
-*/
